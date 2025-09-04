@@ -17,6 +17,7 @@ export default defineConfig(({ mode }) => {
         host: '0.0.0.0',
         port: 5000,
         strictPort: true,
+        allowedHosts: ['34afb171-9030-4c12-80d1-b83c85001165-00-1b8nettwal80r.sisko.replit.dev'],
         hmr: {
           clientPort: 443,
           port: 5000
